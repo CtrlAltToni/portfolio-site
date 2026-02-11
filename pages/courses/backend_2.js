@@ -1,18 +1,20 @@
 import Image from 'next/image';
-import serverlessLogo from '/public/serverless-logo.png';
-import newtabicon from '/public/new-tab-icon.png';
+import serverlessLogo from '../../public/serverless-logo.png';
+import newtabicon from '../../public/new-tab-icon.png';
 
 import { GITHUB_URL } from '../../constants';
 
 const backend_2 = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-      <Image
-        src={serverlessLogo}
-        alt="Logo for serverless-framework"
-        width={100}
-        height={100}
-      />
+      <div className="flex justify-center">
+        <Image
+          src={serverlessLogo}
+          alt="Logo for Serverless Framework"
+          width={100}
+          height={100}
+        />
+      </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">
         Backend-sovelluskehitys 2
       </h3>

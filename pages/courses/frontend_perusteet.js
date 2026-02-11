@@ -1,13 +1,15 @@
 import Image from 'next/image';
-import SvelteLogo from '/public/svelte-logo.png';
-import newtabicon from '/public/new-tab-icon.png';
+import SvelteLogo from '../../public/svelte-logo.png';
+import newtabicon from '../../public/new-tab-icon.png';
 
 import { GITHUB_URL } from '../../constants';
 
 const frontend_perusteet = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-      <Image src={SvelteLogo} alt="Logo for Svelte" width={100} height={100} />
+      <div className="flex justify-center">
+        <Image src={SvelteLogo} alt="Logo for Svelte" width={100} height={100} />
+      </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">Frontend-perusteet</h3>
       <p className="py-2">
         Kurssi toimi johdantona moderniin frontend-sovelluskehitykseen

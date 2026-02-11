@@ -1,18 +1,20 @@
 import Image from 'next/image';
-import restapiLogo from '/public/restapi-logo.png';
-import newtabicon from '/public/new-tab-icon.png';
+import restapiLogo from '../../public/restapi-logo.png';
+import newtabicon from '../../public/new-tab-icon.png';
 
 import { GITHUB_URL } from '../../constants';
 
 const backend_1 = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-      <Image
-        src={restapiLogo}
-        alt="Logo for RESTAPI"
-        width={100}
-        height={100}
-      />
+      <div className="flex justify-center">
+        <Image
+          src={restapiLogo}
+          alt="Logo for REST API"
+          width={100}
+          height={100}
+        />
+      </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">
         Backend-sovelluskehitys 1
       </h3>
