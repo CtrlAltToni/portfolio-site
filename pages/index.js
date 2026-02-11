@@ -56,12 +56,10 @@ export default function Home() {
               Toni Hiidenvuo
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Tietojenkäsittelyn opiskelija @ JAMK
-              <p>Paikkakunta: Tampere</p>
+              <p>Tietojenkäsittelytieteiden<br/>maisteriopiskelija Tampereella</p>
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Reilu kolmekymppinen alanvaihtaja matkalla mainiosta
-              asiakaspalvelijasta ammattitaitoiseksi devaajaksi.
+              Matkalla mainiosta asiakaspalvelijasta IT-alan ammattilaiseksi
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
