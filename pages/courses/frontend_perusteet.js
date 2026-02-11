@@ -2,6 +2,8 @@ import Image from 'next/image';
 import SvelteLogo from '/public/svelte-logo.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { GITHUB_URL } from '../../constants';
+
 const frontend_perusteet = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -12,7 +14,7 @@ const frontend_perusteet = () => {
         hyödyntäen Svelteä.
       </p>
       <a
-        href="https://github.com/aa3689/artisti-info"
+        href={`${GITHUB_URL}/artisti-info`}
         target="blank"
         className="text-teal-600"
       >

@@ -18,6 +18,7 @@ import DataEsi from './courses/data_esi';
 import Algoritmit from './courses/algoritmit';
 import ReactPerusteet from './courses/react';
 import PythonPerusteet from './courses/python';
+import { GITHUB_URL, LINKEDIN_URL, REFERENCE_GITHUB_URL } from '../constants';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -70,12 +71,12 @@ export default function Home() {
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
-                href="https://www.linkedin.com/in/toni-hiidenvuo/"
+                href={LINKEDIN_URL}
                 target="blank"
               >
                 <AiFillLinkedin />
               </a>
-              <a href="https://github.com/aa3689" target="blank">
+              <a href={GITHUB_URL} target="blank">
                 <AiFillGithub />
               </a>
             </div>
@@ -127,7 +128,7 @@ export default function Home() {
             <p className="text-sm text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-sm">
               Sivusto toteutettu{' '}
               <a
-                href="https://github.com/developedbyed/react-portofolio-with-tailwind"
+                href={REFERENCE_GITHUB_URL}
                 target="blank"
                 className="text-teal-600"
               >

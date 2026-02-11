@@ -2,6 +2,8 @@ import Image from 'next/image';
 import serverlessLogo from '/public/serverless-logo.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { GITHUB_URL } from '../../constants';
+
 const backend_2 = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -19,7 +21,7 @@ const backend_2 = () => {
         pilvialustojen päälle.
       </p>
       <a
-        href="https://github.com/aa3689/sst-framework-demo"
+        href={`${GITHUB_URL}/sst-framework-demo`}
         target="blank"
         className="text-teal-600"
       >

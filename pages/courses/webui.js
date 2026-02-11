@@ -2,6 +2,8 @@ import Image from 'next/image';
 import code from '/public/code.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { GITHUB_URL } from '../../constants';
+
 const webui = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -13,7 +15,7 @@ const webui = () => {
         CSS-ulkoasukirjastoihin ja -sovelluskehyksiin.
       </p>
       <a
-        href="https://github.com/aa3689/web-ui-lopputyo"
+        href={`${GITHUB_URL}/web-ui-lopputyo`}
         target="blank"
         className="text-teal-600"
       >

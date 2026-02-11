@@ -2,6 +2,8 @@ import Image from 'next/image';
 import TicorporateLogo from '/public/ticorporate-logo.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { TC, TC_PORTFOLIO } from '../../constants';
+
 const tc = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-2">
@@ -21,7 +23,7 @@ const tc = () => {
       </p>
       <a
         className="text-teal-800"
-        href="https://www.ticorporate.fi/"
+        href={TC}
         target="blank"
       >
         - ticorporate.fi
@@ -34,7 +36,7 @@ const tc = () => {
       </p>
       <p>
         <a
-          href="https://tonihiidenvuo.wixsite.com/tc-portfolio"
+          href={TC_PORTFOLIO}
           target="blank"
           className="text-teal-600"
         >

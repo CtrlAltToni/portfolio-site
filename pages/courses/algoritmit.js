@@ -2,6 +2,8 @@ import Image from 'next/image';
 import treeIcon from '/public/tree-icon.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { GITHUB_URL } from '../../constants';
+
 const algoritmit = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -19,7 +21,7 @@ const algoritmit = () => {
         algoritmeihin sekä toteutettiin niitä.
       </p>
       <a
-        href="https://github.com/aa3689/tietorakenteet-ja-algoritmit"
+        href={`${GITHUB_URL}/tietorakenteet-ja-algoritmit`}
         target="blank"
         className="text-teal-600"
       >

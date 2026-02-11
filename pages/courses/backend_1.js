@@ -2,6 +2,8 @@ import Image from 'next/image';
 import restapiLogo from '/public/restapi-logo.png';
 import newtabicon from '/public/new-tab-icon.png';
 
+import { GITHUB_URL } from '../../constants';
+
 const backend_1 = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -20,7 +22,7 @@ const backend_1 = () => {
         Express-sovelluskehyksellä ja WebSocketilla.
       </p>
       <a
-        href="https://github.com/aa3689/backend-1-lopputyo"
+        href={`${GITHUB_URL}/backend-1-lopputyo`}
         target="blank"
         className="text-teal-600"
       >
