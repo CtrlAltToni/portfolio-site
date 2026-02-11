@@ -12,7 +12,7 @@ const ict_infra = () => {
           src={awsLogo}
           alt="Logo for AWS"
           width={100}
-          height={100}
+          height={60}
         />
       </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">

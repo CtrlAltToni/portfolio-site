@@ -9,7 +9,7 @@ const react_perusteet = () => {
           src={reactLogo}
           alt="Logo for React"
           width={100}
-          height={100}
+          height={90}
         />
       </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">React.js fundamentals</h3>

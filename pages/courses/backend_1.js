@@ -12,7 +12,7 @@ const backend_1 = () => {
           src={restapiLogo}
           alt="Logo for REST API"
           width={100}
-          height={100}
+          height={82}
         />
       </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">

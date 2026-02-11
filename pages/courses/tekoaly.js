@@ -9,7 +9,7 @@ const tekoaly = () => {
           src={sagemakerLogo}
           alt="Logo for AWS SageMaker"
           width={100}
-          height={100}
+          height={81}
         />
       </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">

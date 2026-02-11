@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
 import Image from 'next/image';
-import me from '../public/me.jpg';
+import me from '../public/me.png';
 import Ticorporate from './courses/tc';
 import WebUI from './courses/webui';
 import FrontendPerusteet from './courses/frontend_perusteet';
@@ -76,8 +76,10 @@ export default function Home() {
               <Image
                 src={me}
                 alt="My picture"
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 320px, 384px"
+                loading="eager"
               />
             </div>
           </div>

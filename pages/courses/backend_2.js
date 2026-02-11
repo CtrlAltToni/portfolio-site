@@ -12,7 +12,7 @@ const backend_2 = () => {
           src={serverlessLogo}
           alt="Logo for Serverless Framework"
           width={100}
-          height={100}
+          height={79}
         />
       </div>
       <h3 className="text-lg font-bold pt-8 pb-2 ">
