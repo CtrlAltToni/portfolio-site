@@ -6,7 +6,7 @@ import { GITHUB_URL } from '../../constants';
 
 const frontend_perusteet = () => {
   return (
-    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+    <div className="text-center shadow-lg p-10 rounded-xl my-2 dark:bg-white flex-1">
       <div className="flex justify-center">
         <Image
           src={SvelteLogo}

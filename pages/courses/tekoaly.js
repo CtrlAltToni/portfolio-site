@@ -3,7 +3,7 @@ import sagemakerLogo from '../../public/sagemaker-logo.png';
 
 const tekoaly = () => {
   return (
-    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+    <div className="text-center shadow-lg p-10 rounded-xl my-2 dark:bg-white flex-1">
       <div className="flex justify-center">
         <Image
           src={sagemakerLogo}

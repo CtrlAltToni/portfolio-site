@@ -6,7 +6,7 @@ import { TC, TC_PORTFOLIO } from '../../constants';
 
 const tc = () => {
   return (
-    <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-2">
+    <div className="text-center shadow-lg p-10 rounded-xl my-0  dark:bg-white flex-2">
       <div className="flex justify-center">
         <Image
           src={TicorporateLogo}
