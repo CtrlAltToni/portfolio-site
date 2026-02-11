@@ -29,7 +29,7 @@ export default function Home() {
         <title>Toni H Portfolio</title>
         <meta
           name="description"
-          content="Portfolio Jyväskylän ammattikorkeakoulun tietojenkäsittelyn tutkinto-ohjelmasta"
+          content="Toni Hiidenvuon portfolio tietojenkäsittelyn ja tietojenkäsittelytieteiden opinnoista"
         />
         <meta name="author" content="Toni Hiidenvuo" />
         <link rel="icon" href="/favicon.ico" />
