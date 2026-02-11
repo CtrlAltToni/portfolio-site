@@ -56,7 +56,7 @@ export default function Home() {
               Toni Hiidenvuo
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              <p>Tietojenkäsittelytieteiden<br/>maisteriopiskelija Tampereella</p>
+              Tietojenkäsittelytieteiden<br/>maisteriopiskelija Tampereella
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Matkalla mainiosta asiakaspalvelijasta IT-alan ammattilaiseksi
