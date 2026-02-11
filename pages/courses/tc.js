@@ -40,7 +40,7 @@ const tc = () => {
         <a
           href={TC_PORTFOLIO}
           target="blank"
-          className="text-teal-600"
+          className="text-teal-600 inline-flex items-center gap-1"
         >
           TC-portfolio
           <Image

@@ -26,7 +26,7 @@ const ict_infra = () => {
       <a
         href={`${GITHUB_URL}/ict-infra-lopputyo`}
         target="blank"
-        className="text-teal-600"
+        className="text-teal-600 inline-flex items-center gap-1"
       >
         Kurssin lopputyön GH-repositorio
         <Image

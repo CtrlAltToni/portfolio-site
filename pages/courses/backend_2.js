@@ -25,7 +25,7 @@ const backend_2 = () => {
       <a
         href={`${GITHUB_URL}/sst-framework-demo`}
         target="blank"
-        className="text-teal-600"
+        className="text-teal-600 inline-flex items-center gap-1"
       >
         Kurssin lopputyön GH-repositorio
         <Image

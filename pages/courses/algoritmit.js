@@ -25,7 +25,7 @@ const algoritmit = () => {
       <a
         href={`${GITHUB_URL}/tietorakenteet-ja-algoritmit`}
         target="blank"
-        className="text-teal-600"
+        className="text-teal-600 inline-flex items-center gap-1"
       >
         Kurssin tehtävien GH-repositorio
         <Image

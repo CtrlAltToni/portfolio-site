@@ -118,7 +118,7 @@ export default function Home() {
               <a
                 href={REFERENCE_GITHUB_URL}
                 target="blank"
-                className="text-teal-600"
+                className="text-teal-600 inline-flex items-center gap-1"
               >
                 react-portfolio-with-tailwind
               </a>

@@ -18,7 +18,7 @@ const frontend_perusteet = () => {
       <a
         href={`${GITHUB_URL}/artisti-info`}
         target="blank"
-        className="text-teal-600"
+        className="text-teal-600 inline-flex items-center gap-1"
       >
         Kurssin lopputyön GH-repositorio
         <Image
