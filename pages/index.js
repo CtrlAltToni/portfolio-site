@@ -7,6 +7,7 @@ import Image from 'next/image';
 import me from '../public/me.png';
 import CourseCard from '../components/CourseCard';
 import Ticorporate from '../components/Ticorporate';
+import Internship from '../components/Internship';
 import { COURSES } from '../data/coursesData';
 import { GITHUB_URL, LINKEDIN_URL, REFERENCE_GITHUB_URL } from '../constants';
 
@@ -87,7 +88,10 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap">
-            <Ticorporate />
+            <div className="flex flex-col gap-10 w-full lg:flex-row">
+              <Ticorporate />
+              <Internship />
+            </div>
             {COURSES.map((course) => (
               <CourseCard key={course.id} {...course} />
             ))}
