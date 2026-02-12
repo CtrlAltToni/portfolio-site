@@ -7,17 +7,14 @@ import Image from 'next/image';
 import me from '../public/me.png';
 import Ticorporate from './courses/tc';
 import WebUI from './courses/webui';
-import FrontendPerusteet from './courses/frontend_perusteet';
-import FrontendKehitys from './courses/frontend_kehitys';
 import Ohjelmointi from './courses/ohjelmointi';
 import Backend_1 from './courses/backend_1';
 import Backend_2 from './courses/backend_2';
 import ICTInfra from './courses/ict_infra';
 import Tekoaly from './courses/tekoaly';
 import DataEsi from './courses/data_esi';
-import Algoritmit from './courses/algoritmit';
-import ReactPerusteet from './courses/react';
 import PythonPerusteet from './courses/python';
+import FrontendFrameworks from './courses/frontend_frameworks';
 import { GITHUB_URL, LINKEDIN_URL, REFERENCE_GITHUB_URL } from '../constants';
 
 export default function Home() {
@@ -104,12 +101,9 @@ export default function Home() {
             <Ohjelmointi />
             <Backend_1 />
             <Backend_2 />
+            <FrontendFrameworks />
             <WebUI />
-            <FrontendPerusteet />
-            <FrontendKehitys />
-            <ReactPerusteet />
             <PythonPerusteet />
-            <Algoritmit />
           </div>
         </section>
 
