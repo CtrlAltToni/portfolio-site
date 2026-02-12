@@ -27,15 +27,6 @@ export const COURSES = [
     logoHeight: 75
   },
   {
-    id: 'ohjelmointi',
-    title: 'Ohjelmointi 1 & 2',
-    description: [
-      'Ohjelmointi 1 -kurssilla tutustuttiin ohjelmoinnin perusteisiin ja hyviin käytänteisiin JavaScript-ohjelmointikielellä.',
-      'Ohjelmointi 2 -kurssi syvensi asioita TypeScript-ohjelmointikielen kautta.'
-    ],
-    logo: '/js-logo.png'
-  },
-  {
     id: 'backend_1',
     title: 'Backend-sovelluskehitys 1',
     description: 'Kursilla tutustuttiin backend-sovellusten toimintatapoihin sekä kehitettiin moderneja backend-sovelluksia NodeJS:llä, Express-sovelluskehyksellä ja WebSocketilla.',
@@ -52,6 +43,15 @@ export const COURSES = [
     logoWidth: 100,
     logoHeight: 79,
     link: `${GITHUB_URL}/sst-framework-demo`
+  },
+    {
+    id: 'ohjelmointi',
+    title: 'Ohjelmointi 1 & 2',
+    description: [
+      'Ohjelmointi 1 -kurssilla tutustuttiin ohjelmoinnin perusteisiin ja hyviin käytänteisiin JavaScript-ohjelmointikielellä.',
+      'Ohjelmointi 2 -kurssi syvensi asioita TypeScript-ohjelmointikielen kautta.'
+    ],
+    logo: '/js-logo.png'
   },
   {
     id: 'frontend_frameworks',
