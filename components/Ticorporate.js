@@ -1,12 +1,21 @@
 import Image from 'next/image';
 import TicorporateLogo from '../public/ticorporate-logo.png';
+import JamkLogo from '../public/jamk-logo.png';
 import newtabicon from '../public/new-tab-icon.png';
 
 import { TC, TC_PORTFOLIO } from '../constants';
 
 const Ticorporate = () => {
   return (
-    <div className="text-center shadow-lg p-10 rounded-xl my-0  dark:bg-white flex-2">
+    <div className="text-center shadow-lg p-10 rounded-xl my-0  dark:bg-white flex-1 relative">
+      <div className="absolute top-3 right-3">
+        <Image
+          src={JamkLogo}
+          alt="JAMK logo"
+          width={45}
+          height={45}
+        />
+      </div>
       <div className="flex justify-center">
         <Image
           src={TicorporateLogo}
