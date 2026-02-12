@@ -2,7 +2,7 @@ import { GITHUB_URL } from '../constants';
 
 export const COURSES = [
   {
-    id: 'ict_infra',
+    id: 'ict_infrastructure',
     title: 'ICT-infrastruktuuri pilvialustalla',
     description: 'Kurssilla tutustuttiin AWS:n infrastruktuurin pystyttämiseen (VPC, aliverkot, muut resurssit) IaC-metodeilla sekä tarkasteltiin näitä asioita operoinnin, monistettavuuden ja ylläpidon näkökulmasta.',
     logo: '/aws-logo.png',
@@ -11,7 +11,7 @@ export const COURSES = [
     link: `${GITHUB_URL}/ict-infra-lopputyo`
   },
   {
-    id: 'tekoaly',
+    id: 'ai_ml_services',
     title: 'Tekoäly- ja koneoppimispalvelut pilvialustalla',
     description: 'Kurssilla perehdyttiin tekoäly- ja koneoppimispalveluihin AWS:n pilvessä. Käytetyt palvelut mm. Amazon SageMaker, Forecast, Rekognition ja Polly.',
     logo: '/sagemaker-logo.png',
@@ -19,7 +19,7 @@ export const COURSES = [
     logoHeight: 81
   },
   {
-    id: 'data_esi',
+    id: 'data_preprocessing',
     title: 'Datan esikäsittely pilvialustalla',
     description: 'Kurssilla perehdyttiin liiketoiminnassa hyödynnettävän datan esikäsittelyyn AWS:n pilvessä. Käytetyt palvelut mm. AWS Glue ja Glue DataBrew.',
     logo: '/glue-logo.png',
@@ -45,7 +45,7 @@ export const COURSES = [
     link: `${GITHUB_URL}/sst-framework-demo`
   },
     {
-    id: 'ohjelmointi',
+    id: 'programming_js_ts',
     title: 'Ohjelmointi 1 & 2',
     description: [
       'Ohjelmointi 1 -kurssilla tutustuttiin ohjelmoinnin perusteisiin ja hyviin käytänteisiin JavaScript-ohjelmointikielellä.',
