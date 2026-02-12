@@ -9,10 +9,21 @@ const CourseCard = ({
   logoHeight = 100,
   link,
   linkText = 'Kurssin lopputyön GH-repositorio',
-  isSpecial = false
+  isSpecial = false,
+  institution = 'JAMK'
 }) => {
+  const institutionLogo = institution === 'TUNI' ? '/tuni-logo.png' : '/jamk-logo.png';
+  
   return (
-    <div className={`text-center shadow-lg p-10 rounded-xl my-2 dark:bg-white ${isSpecial ? 'flex-2' : 'flex-1'}`}>
+    <div className={`text-center shadow-lg p-10 rounded-xl my-2 dark:bg-white relative ${isSpecial ? 'flex-2' : 'flex-1'}`}>
+      <div className="absolute top-3 right-3">
+        <Image
+          src={institutionLogo}
+          alt={`${institution} logo`}
+          width={45}
+          height={45}
+        />
+      </div>
       <div className="flex justify-center">
         <Image
           src={logo}
