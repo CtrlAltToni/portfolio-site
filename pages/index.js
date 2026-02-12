@@ -5,16 +5,9 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
 import Image from 'next/image';
 import me from '../public/me.png';
-import Ticorporate from './courses/tc';
-import WebUI from './courses/webui';
-import Ohjelmointi from './courses/ohjelmointi';
-import Backend_1 from './courses/backend_1';
-import Backend_2 from './courses/backend_2';
-import ICTInfra from './courses/ict_infra';
-import Tekoaly from './courses/tekoaly';
-import DataEsi from './courses/data_esi';
-import PythonPerusteet from './courses/python';
-import FrontendFrameworks from './courses/frontend_frameworks';
+import CourseCard from '../components/CourseCard';
+import Ticorporate from '../components/Ticorporate';
+import { COURSES } from '../data/coursesData';
 import { GITHUB_URL, LINKEDIN_URL, REFERENCE_GITHUB_URL } from '../constants';
 
 export default function Home() {
@@ -95,15 +88,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-2 lg:flex-row lg:flex-wrap">
             <Ticorporate />
-            <ICTInfra />
-            <Tekoaly />
-            <DataEsi />
-            <Ohjelmointi />
-            <Backend_1 />
-            <Backend_2 />
-            <FrontendFrameworks />
-            <WebUI />
-            <PythonPerusteet />
+            {COURSES.map((course) => (
+              <CourseCard key={course.id} {...course} />
+            ))}
           </div>
         </section>
 

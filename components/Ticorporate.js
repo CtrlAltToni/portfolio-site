@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import TicorporateLogo from '../../public/ticorporate-logo.png';
-import newtabicon from '../../public/new-tab-icon.png';
+import TicorporateLogo from '../public/ticorporate-logo.png';
+import newtabicon from '../public/new-tab-icon.png';
 
-import { TC, TC_PORTFOLIO } from '../../constants';
+import { TC, TC_PORTFOLIO } from '../constants';
 
-const tc = () => {
+const Ticorporate = () => {
   return (
     <div className="text-center shadow-lg p-10 rounded-xl my-0  dark:bg-white flex-2">
       <div className="flex justify-center">
@@ -55,4 +55,4 @@ const tc = () => {
   );
 };
 
-export default tc;
+export default Ticorporate;
