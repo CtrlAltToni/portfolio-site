@@ -42,7 +42,7 @@ const Ticorporate = () => {
           target="blank"
           className="text-teal-600 inline-flex items-center gap-1"
         >
-          TC-portfolio
+          Ticorporate-portfolio
           <Image
             src={newtabicon}
             alt="Icon for indicating that link opens in new tab"
