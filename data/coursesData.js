@@ -2,6 +2,34 @@ import { GITHUB_URL } from '../constants';
 
 export const COURSES = [
   {
+    id: 'devops',
+    title: 'Continuous Development and Deployment',
+    description: 'Kurssilla toteutettiin Docker-pohjainen mikropalveluarkkitehtuuri hyödyntämällä Docker Composea, Nginxia palveluiden reitityksessä sekä CI/CD-putkea blue–green-julkaisumallilla.',
+    logo: '/devops-logo.png',
+    logoWidth: 140,
+    logoHeight: 67,
+    link: `${GITHUB_URL}/tuni-devops-project`,
+    institution: 'TUNI'
+  },
+  {
+    id: 'c++',
+    title: 'Ohjelmointi 2: Tekniikat',
+    description: 'Kurssilla perehdyttiin C++-ohjelmoinnin perusteisiin, kuten modulaarisuuteen, oliopohjaiseen ohjelmointiin, STL-säiliöihin ja muistinhallintaan.',
+    logo: '/c++-logo.png',
+    logoWidth: 80,
+    logoHeight: 92,
+    institution: 'TUNI'
+  },
+  {
+    id: 'spark',
+    title: 'Data-Intensive Programming',
+    description: 'Kurssilla käsiteltiin big dataa Apache Sparkilla Scala-kielellä erilaisten harjoitusten ja tehtävien kautta.',
+    logo: '/spark-logo.png',
+    logoWidth: 100,
+    logoHeight: 52,
+    institution: 'TUNI'
+  },
+  {
     id: 'ict_infrastructure',
     title: 'ICT-infrastruktuuri pilvialustalla',
     description: 'Kurssilla tutustuttiin AWS:n infrastruktuurin pystyttämiseen (VPC, aliverkot, muut resurssit) IaC-metodeilla sekä tarkasteltiin näitä asioita operoinnin, monistettavuuden ja ylläpidon näkökulmasta.',
