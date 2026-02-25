@@ -40,8 +40,8 @@ const Internship = () => {
         React Native -teknologialla ja Expo-frameworkilla. Työskentelin UI-suunnitelmien 
         pohjalta ja vastasin sovelluksen kehityksestä aina Google Play -kauppaan julkaisuun asti. 
         Kehitystyön ohessa osallistuin sovelluksen suunnitteluun ja teknisten ratkaisujen 
-        hiomiseen. Lisäksi syvensin osaamistani pilvipalveluista osallistumalla projektin 
-        SaaS-pohjaisen AWS-arkkitehtuurin toteutukseen.
+        hiomiseen. Lisäksi syvensin osaamistani pilvipalveluista osallistumalla saman projektin 
+        SaaS-pilvipalvelumallilla toteutettuun osaan.
       </p>
     </div>
   );
