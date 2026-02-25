@@ -82,7 +82,7 @@ export default function Home() {
               Suorittamani opintojaksot
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Opintojeni aikana suorittamiani relevantteja kursseja. Kurssista
+              JAMK:ssa ja Tampereen yliopistossa suorittamiani relevantteja kursseja. Kurssista
               on lyhyt kuvaus sekä linkki GitHub-repositorioon tai vastaavaan,
               jos kurssista sellainen on.
             </p>
