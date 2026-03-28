@@ -21,15 +21,6 @@ export const COURSES = [
     institution: 'TUNI'
   },
   {
-    id: 'spark',
-    title: 'Data-Intensive Programming',
-    description: 'Kurssilla käsiteltiin big dataa Apache Sparkilla Scala-kielellä erilaisten harjoitusten ja tehtävien kautta.',
-    logo: '/spark-logo.png',
-    logoWidth: 100,
-    logoHeight: 52,
-    institution: 'TUNI'
-  },
-  {
     id: 'ict_infrastructure',
     title: 'ICT-infrastruktuuri pilvialustalla',
     description: 'Kurssilla tutustuttiin AWS:n infrastruktuurin pystyttämiseen (VPC, aliverkot, muut resurssit) IaC-metodeilla sekä tarkasteltiin näitä asioita operoinnin, monistettavuuden ja ylläpidon näkökulmasta.',
@@ -40,6 +31,15 @@ export const COURSES = [
     institution: 'JAMK'
   },
   {
+    id: 'llm',
+    title: 'Fine-tuning Large Language Models',
+    description: 'Kurssilla käsiteltiin kielimallien eettisiä ja yhteiskunnallisia vaikutuksia, perehdyttiin kielimallien hienosäätöön ja optimointiin sekä tutustuttiin AI-agentteihin.',
+    logo: '/llm-logo.png',
+    logoWidth: 120,
+    logoHeight: 95,
+    institution: 'TUNI'
+  },
+  {
     id: 'ai_ml_services',
     title: 'Tekoäly- ja koneoppimispalvelut pilvialustalla',
     description: 'Kurssilla perehdyttiin tekoäly- ja koneoppimispalveluihin AWS:n pilvessä. Käytetyt palvelut mm. Amazon SageMaker, Forecast, Rekognition ja Polly.',
@@ -47,6 +47,15 @@ export const COURSES = [
     logoWidth: 100,
     logoHeight: 81,
     institution: 'JAMK'
+  },
+  {
+    id: 'spark',
+    title: 'Data-Intensive Programming',
+    description: 'Kurssilla käsiteltiin big dataa Apache Sparkilla Scala-kielellä erilaisten harjoitusten ja tehtävien kautta.',
+    logo: '/spark-logo.png',
+    logoWidth: 100,
+    logoHeight: 52,
+    institution: 'TUNI'
   },
   {
     id: 'data_preprocessing',
@@ -77,7 +86,7 @@ export const COURSES = [
     link: `${GITHUB_URL}/sst-framework-demo`,
     institution: 'JAMK'
   },
-    {
+  {
     id: 'programming_js_ts',
     title: 'Ohjelmointi 1 & 2',
     description: [
