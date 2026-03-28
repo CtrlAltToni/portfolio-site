@@ -30,6 +30,15 @@ export const COURSES = [
     link: `${GITHUB_URL}/ict-infra-lopputyo`,
     institution: 'JAMK'
   },
+    {
+    id: 'software_management',
+    title: 'Ohjelmistotuotteen ja -prosessin hallinta',
+    description: 'Kurssilla käsiteltiin ohjelmistotuotteen ja -prosessin hallintaa ketterien menetelmien, lean-ajattelun ja projektinhallinnan näkökulmasta GitLabia hyödyntäen.',
+    logo: '/gitlab-logo.png',
+    logoWidth: 80,
+    logoHeight: 80,
+    institution: 'TUNI'
+  },
   {
     id: 'llm',
     title: 'Fine-tuning Large Language Models',
