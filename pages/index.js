@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
 import Image from 'next/image';
-import me from '../public/me.png';
+import me from '../public/me2.png';
 import CourseCard from '../components/CourseCard';
 import Ticorporate from '../components/Ticorporate';
 import Internship from '../components/Internship';
